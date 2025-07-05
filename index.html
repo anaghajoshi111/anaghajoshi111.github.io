@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Anagha N. Joshi</title>
+  <title>Anagha Joshi</title>
   <meta name="author" content="Anagha Narasimha Joshi">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -10,18 +10,32 @@
 </head>
 <body>
 
-<!-- Top: Name, Bio, Contact, Photo -->
+<!-- Navigation Bar -->
+<nav class="nav-bar">
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#blog">Research Blog</a>
+  <a href="#artwork">Artwork</a>
+  <a href="#sports">Sports</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Top section: Name, About, Contact links, Profile Photo -->
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
+    <!-- Left column: Name, Bio, Contact links -->
     <td style="padding:2.5%; width:60%; vertical-align:middle;">
+      <section id="about"></section>
       <p style="text-align:center;">
         <name>Anagha Narasimha Joshi</name>
       </p>
       <p style="text-align:justify;">
-        Anagha Joshi is a computer science researcher and software engineer with a focus on software engineering and natural language processing. She holds an M.S. in Computer Science from the University of Georgia, where her thesis centered on interpretable AI techniques. Currently based in Austin, TX, Anagha works as a Software Development Engineer at Amazon while actively engaging in research. She is preparing to pursue a Ph.D., aiming to leverage her industry experience and research background in the fields of software engineering and AI.
+        I am a computer science researcher and software engineer focused on software engineering and natural language processing. I hold an M.S. in Computer Science from the University of Georgia, where I explored interpretable AI techniques for my thesis. Currently based in Austin, TX, I work as a Software Development Engineer at Amazon and am preparing to pursue a Ph.D. that will allow me to bridge my industry experience with academic research in software engineering and AI.
       </p>
       <p style="text-align:justify;">
-        Her research experience spans explainable AI, program analysis, and machine learning. Anagha has developed a novel model for automatic syntax error repair in code and explored advanced active learning strategies for text classification. She is passionate about building intelligent systems that are both effective and interpretable.
+        My research experience spans explainable AI, program analysis, and machine learning. I have developed models for automatic syntax error repair in code and explored advanced active learning strategies for text classification. I am passionate about building intelligent systems that are both effective and interpretable.
       </p>
       <p style="text-align:center;">
         <a href="mailto:anaghaj489@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -30,72 +44,125 @@
         <a href="https://github.com/anaghajoshi111">GitHub</a>
       </p>
     </td>
+    <!-- Right column: Profile photo in a circle -->
     <td style="padding:2.5%; width:40%; vertical-align:middle;">
-      <img src="images/profile.jpg" alt="Profile photo of Anagha N. Joshi" style="width:100%; max-width:100%;">
+      <div class="profile-pic-crop">
+        <img src="images/profile.jpg" alt="Profile photo of Anagha N. Joshi" class="circle-pic">
+      </div>
     </td>
   </tr>
 </table>
 
-<!-- Research -->
+<!-- Research Section -->
+<section id="research"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
     <td style="padding:20px; vertical-align:middle;">
       <heading>Research</heading>
       <p style="text-align:justify;">
-        Anagha’s research lies at the intersection of software engineering and machine learning. She has worked on AI-driven program analysis, developing a Boolean tensor completion model to automatically repair syntax errors in source code. She has also investigated active learning techniques for text classification, introducing methods to improve model performance on diverse datasets. During her M.S. at UGA, Anagha designed an interpretable transformer-based image classifier, demonstrating her focus on explainable AI in deep learning.
+        My research lies at the intersection of software engineering and machine learning. I have worked on AI-driven program analysis, developing a Boolean tensor completion model to automatically repair syntax errors in source code. I have also investigated active learning techniques for text classification, introducing methods to improve model performance on diverse datasets. During my M.S. at UGA, I designed an interpretable transformer-based image classifier, demonstrating my focus on explainable AI in deep learning.
       </p>
     </td>
   </tr>
 </table>
 
-<!-- Publications -->
+<!-- Publications Section -->
+<section id="publications"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
-    <td style="padding:20px; vertical-align:middle;">
+    <td style="padding:20px; vertical-align:top;">
       <heading>Publications</heading>
-      <ul>
-        <li style="margin-bottom:10px;">
-          <strong>A. N. Joshi</strong>, "Revitalizing Language Processing with Intelligent Syntax Repair and Boolean Tensor Completion,"
-          <em>2024 IEEE International Conference on Big Data (BigData)</em>, Washington, DC, USA, 2024, pp. 5361–5368.<br>
+      <!-- Publication 1 -->
+      <div class="pub-entry">
+        <img src="images/pub_placeholder.png" alt="Publication 1" class="pub-img">
+        <div class="pub-details">
+          <papertitle>
+            <strong>A. N. Joshi</strong>, "Revitalizing Language Processing with Intelligent Syntax Repair and Boolean Tensor Completion,"
+            <em>2024 IEEE International Conference on Big Data (BigData)</em>, Washington, DC, USA, 2024, pp. 5361–5368.
+          </papertitle>
+          <br>
           <a href="https://ieeexplore.ieee.org/document/10825203">[IEEE Xplore]</a> &middot;
           <a href="https://doi.org/10.1109/BigData62323.2024.10825203">doi:10.1109/BigData62323.2024.10825203</a>
-        </li>
-        <li style="margin-bottom:10px;">
-          <strong>Anagha Narasimha Joshi</strong>. 2025. "Enhancing Core-Set Active Learning: Unlocking New Frontiers in Text Classification."
-          In <em>Proceedings of the 2024 8th International Conference on Natural Language Processing and Information Retrieval (NLPIR '24)</em>.
-          Association for Computing Machinery, New York, NY, USA, 62–68.<br>
+        </div>
+      </div>
+      <!-- Publication 2 -->
+      <div class="pub-entry">
+        <img src="images/pub_placeholder.png" alt="Publication 2" class="pub-img">
+        <div class="pub-details">
+          <papertitle>
+            <strong>Anagha Narasimha Joshi</strong>. 2025. "Enhancing Core-Set Active Learning: Unlocking New Frontiers in Text Classification."
+            In <em>Proceedings of the 2024 8th International Conference on Natural Language Processing and Information Retrieval (NLPIR '24)</em>. Association for Computing Machinery, New York, NY, USA, 62–68.
+          </papertitle>
+          <br>
           <a href="https://dl.acm.org/doi/10.1145/3711542.3711606">[ACM Digital Library]</a> &middot;
           <a href="https://doi.org/10.1145/3711542.3711606">doi:10.1145/3711542.3711606</a>
-        </li>
-        <li style="margin-bottom:10px;">
-          <strong>A. Joshi</strong>, “Interpretable Image Classification,” M.S. Thesis, University of Georgia, 2021.<br>
+        </div>
+      </div>
+      <!-- Publication 3 -->
+      <div class="pub-entry">
+        <img src="images/pub_placeholder.png" alt="Publication 3" class="pub-img">
+        <div class="pub-details">
+          <papertitle>
+            <strong>A. Joshi</strong>, “Interpretable Image Classification,” M.S. Thesis, University of Georgia, 2021.
+          </papertitle>
+          <br>
           <a href="https://esploro.libs.uga.edu/esploro/outputs/9949390565902959">[UGA Repository]</a>
-        </li>
-        <li>
-          <strong>A. Joshi</strong>, M. V. Kulkarni, "Analysis of Fractal Image Compression Using Quadtree Partitioning,"
-          <em>Bulletin of Marine Science & Technology</em>, Vol. 10, 2015.
-        </li>
-      </ul>
+        </div>
+      </div>
+      <!-- Publication 4 -->
+      <div class="pub-entry">
+        <img src="images/pub_placeholder.png" alt="Publication 4" class="pub-img">
+        <div class="pub-details">
+          <papertitle>
+            <strong>A. Joshi</strong>, M. V. Kulkarni, "Analysis of Fractal Image Compression Using Quadtree Partitioning,"
+            <em>Bulletin of Marine Science & Technology</em>, Vol. 10, 2015.
+          </papertitle>
+        </div>
+      </div>
     </td>
   </tr>
 </table>
 
-<!-- Projects -->
+<!-- Projects Section -->
+<section id="projects"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
-    <td style="padding:20px; vertical-align:middle;">
+    <td style="padding:20px; vertical-align:top;">
       <heading>Projects</heading>
-      <ul>
-        <li><strong>SynSculpt – Syntax Error Repair Model:</strong> Developed a method using boolean tensor completion to suggest and rank fixes for programming language syntax errors, achieving ~90% accuracy in identifying valid code repairs.</li>
-        <li><strong>Core-Set Active Learning Enhancements:</strong> Applied dimensionality reduction (t-SNE) within core-set active learning for text classification, improving F<sub>1</sub> scores by 2–3% and highlighting cases where core-set selection underperforms random sampling.</li>
-        <li><strong>TPNet (Interpretable Image Classifier):</strong> Designed a transformer-based image classification model that provides visual explanations for its predictions, reducing model complexity while maintaining accuracy (M.S. thesis project).</li>
-        <li><strong>Autograding Web Application:</strong> Built a Django web app for automated grading of assignments, which automated 100% of grading tasks and reduced manual grading time by 90%, deployed for an educational research lab.</li>
-      </ul>
+      <!-- Project 1 -->
+      <div class="pub-entry">
+        <img src="images/project_placeholder.png" alt="Project 1" class="pub-img">
+        <div class="pub-details">
+          <strong>SynSculpt – Syntax Error Repair Model:</strong> I developed a method using boolean tensor completion to suggest and rank fixes for programming language syntax errors, achieving ~90% accuracy in identifying valid code repairs.
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="pub-entry">
+        <img src="images/project_placeholder.png" alt="Project 2" class="pub-img">
+        <div class="pub-details">
+          <strong>Core-Set Active Learning Enhancements:</strong> I applied dimensionality reduction (t-SNE) within core-set active learning for text classification, improving F<sub>1</sub> scores by 2–3% and highlighting cases where core-set selection underperforms random sampling.
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="pub-entry">
+        <img src="images/project_placeholder.png" alt="Project 3" class="pub-img">
+        <div class="pub-details">
+          <strong>TPNet (Interpretable Image Classifier):</strong> I designed a transformer-based image classification model that provides visual explanations for its predictions, reducing model complexity while maintaining accuracy (M.S. thesis project).
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="pub-entry">
+        <img src="images/project_placeholder.png" alt="Project 4" class="pub-img">
+        <div class="pub-details">
+          <strong>Autograding Web Application:</strong> I built a Django web app for automated grading of assignments, which automated 100% of grading tasks and reduced manual grading time by 90%, deployed for an educational research lab.
+        </div>
+      </div>
     </td>
   </tr>
 </table>
 
-<!-- Research Blog -->
+<!-- Research Blog Section -->
+<section id="blog"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
     <td style="padding:20px; vertical-align:middle;">
@@ -107,31 +174,40 @@
   </tr>
 </table>
 
-<!-- Artwork -->
+<!-- Artwork Section -->
+<section id="artwork"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
     <td style="padding:20px; vertical-align:middle;">
       <heading>Artwork</heading>
-      <p style="text-align:justify;">
-        Outside of computing, I enjoy creative pursuits. I will be showcasing some of my artwork and creative projects here soon.
-      </p>
+      <div style="display:flex; align-items:center;">
+        <img src="images/artwork_placeholder.png" alt="Artwork placeholder" class="artwork-img">
+        <p style="margin-left:24px; text-align:justify;">
+          I enjoy creative pursuits outside of computing. I will be showcasing some of my artwork and creative projects here soon.
+        </p>
+      </div>
     </td>
   </tr>
 </table>
 
-<!-- Sports -->
+<!-- Sports Section -->
+<section id="sports"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
     <td style="padding:20px; vertical-align:middle;">
       <heading>Sports</heading>
-      <p style="text-align:justify;">
-        I have a passion for sports and fitness. I am a powerlifting athlete and recently achieved a personal record deadlift of 200 lbs (2023). I also hold a Black Belt (Dan) in Muay Thai (earned in 2018). Staying active through strength training and martial arts helps me build discipline and energy for my research.
-      </p>
+      <div style="display:flex; align-items:center;">
+        <img src="images/sports_placeholder.png" alt="Sports placeholder" class="artwork-img">
+        <p style="margin-left:24px; text-align:justify;">
+          I have a passion for sports and fitness. I am a powerlifting athlete and recently achieved a personal record deadlift of 200 lbs (2023). I also hold a Black Belt (Dan) in Muay Thai (earned in 2018). Staying active through strength training and martial arts helps me build discipline and energy for my research.
+        </p>
+      </div>
     </td>
   </tr>
 </table>
 
-<!-- Contact -->
+<!-- Contact Section -->
+<section id="contact"></section>
 <table style="width:100%; max-width:800px; margin:auto; border-spacing:0;">
   <tr>
     <td style="padding:20px; vertical-align:middle;">
@@ -145,6 +221,18 @@
     </td>
   </tr>
 </table>
+
+<!-- Smooth scroll script for nav links -->
+<script>
+  document.querySelectorAll('.nav-bar a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
 
 </body>
 </html>
