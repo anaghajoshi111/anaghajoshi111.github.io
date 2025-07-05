@@ -1,0 +1,16 @@
+body, td, th, tr, p, a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #f09228;
+  text-decoration: none;
+}
+strong { font-weight: bold; }
+name { font-size: 32px; font-weight: bold; }
+heading { font-size: 22px; font-weight: bold; display: block; margin-bottom: 10px; }
+papertitle { font-weight: bold; }
