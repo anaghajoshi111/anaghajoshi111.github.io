@@ -1,6 +1,6 @@
-# Anagha Narasimha Joshi – Academic Portfolio Website
+# Anagha Joshi – Academic Portfolio Website
 
-This is the personal academic website and research portfolio of **Anagha Narasimha Joshi**, a computer science researcher with interests in software engineering, natural language processing (NLP), and explainable AI.
+This is the personal academic website and research portfolio of **Anagha Joshi**, a computer science researcher with interests in software engineering, natural language processing (NLP), and explainable AI.
 
 Visit the live site: [https://anaghajoshi111.github.io/](https://anaghajoshi111.github.io/)
 
